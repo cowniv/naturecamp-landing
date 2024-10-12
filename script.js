@@ -5,4 +5,6 @@ const menu = document.getElementById("menu");
 
 toggle.addEventListener("click", (e) => {
   e.stopPropagation();
+  const open = dropdown.classList.toggle("open");
+  toggle.setAttribute("aria-expanded", open);
 });
