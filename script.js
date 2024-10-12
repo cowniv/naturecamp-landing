@@ -17,3 +17,8 @@ document.addEventListener("click", () => {
 document.getElementById("burger").addEventListener("click", () => {
   menu.classList.toggle("open");
 });
+
+window.addEventListener("load", () => {
+  document.querySelectorAll(".reveal").forEach((el, i) => {
+  });
+});
