@@ -13,3 +13,7 @@ document.addEventListener("click", () => {
   dropdown.classList.remove("open");
   toggle.setAttribute("aria-expanded", false);
 });
+
+document.getElementById("burger").addEventListener("click", () => {
+  menu.classList.toggle("open");
+});
