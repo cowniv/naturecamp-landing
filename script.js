@@ -8,3 +8,8 @@ toggle.addEventListener("click", (e) => {
   const open = dropdown.classList.toggle("open");
   toggle.setAttribute("aria-expanded", open);
 });
+
+document.addEventListener("click", () => {
+  dropdown.classList.remove("open");
+  toggle.setAttribute("aria-expanded", false);
+});
