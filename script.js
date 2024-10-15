@@ -20,5 +20,6 @@ document.getElementById("burger").addEventListener("click", () => {
 
 window.addEventListener("load", () => {
   document.querySelectorAll(".reveal").forEach((el, i) => {
+    setTimeout(() => el.classList.add("in"), 150 + i * 200);
   });
 });
