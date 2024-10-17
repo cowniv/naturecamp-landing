@@ -66,4 +66,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
   color: #3d4a37;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+  transition: .2s;
 }
