@@ -50,3 +50,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   border: none;
   font-size: 15px;
 }
+.pill > a.active { background: rgba(255, 255, 255, .15); }
+
+.dropdown { position: relative; }
+.dropdown-toggle span { font-size: 12px; margin-left: 2px; }
