@@ -42,3 +42,11 @@ button { font: inherit; color: inherit; cursor: pointer; }
   background: rgba(255, 255, 255, .25);
   backdrop-filter: blur(6px);
 }
+.pill > a,
+.dropdown-toggle {
+  padding: 6px 22px;
+  border-radius: 8px;
+  background: none;
+  border: none;
+  font-size: 15px;
+}
