@@ -71,3 +71,6 @@ button { font: inherit; color: inherit; cursor: pointer; }
   pointer-events: none;
   transition: .2s;
 }
+.dropdown-menu a { padding: 10px 12px; border-radius: 6px; font-size: 14px; }
+.dropdown-menu a:hover { background: #eef3ea; }
+.dropdown.open .dropdown-menu { opacity: 1; transform: none; pointer-events: auto; }
