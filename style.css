@@ -84,3 +84,13 @@ button { font: inherit; color: inherit; cursor: pointer; }
   background: rgba(255, 255, 255, .25);
 }
 #burger { display: none; }
+
+/* ---------- HERO ---------- */
+.hero {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr 1fr;
+  align-items: center;
+  padding: 0 4vw;
+  position: relative;
+}
