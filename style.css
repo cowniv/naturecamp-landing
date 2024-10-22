@@ -102,3 +102,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 .hero-left h1 em { color: var(--sand); }
 .hero-left p { margin: 22px 0 28px; font-size: 18px; line-height: 1.5; max-width: 440px; }
+
+.hero-right { text-align: right; }
+.hero-right h2 { font-size: clamp(34px, 4.2vw, 62px); font-weight: 900; line-height: 1.05; }
+.hero-right p { margin: 18px 0 22px; font-size: 18px; }
