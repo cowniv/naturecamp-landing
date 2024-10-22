@@ -76,3 +76,11 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .dropdown.open .dropdown-menu { opacity: 1; transform: none; pointer-events: auto; }
 
 .nav-icons { display: flex; justify-content: flex-end; gap: 14px; }
+.icon-btn {
+  width: 36px; height: 36px;
+  display: grid; place-items: center;
+  border-radius: 10px;
+  border: 1.5px solid rgba(255, 255, 255, .7);
+  background: rgba(255, 255, 255, .25);
+}
+#burger { display: none; }
