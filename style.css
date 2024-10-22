@@ -101,3 +101,4 @@ button { font: inherit; color: inherit; cursor: pointer; }
   line-height: 1.05;
 }
 .hero-left h1 em { color: var(--sand); }
+.hero-left p { margin: 22px 0 28px; font-size: 18px; line-height: 1.5; max-width: 440px; }
