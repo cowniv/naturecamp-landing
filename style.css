@@ -129,3 +129,6 @@ button { font: inherit; color: inherit; cursor: pointer; }
   padding: 18px 4vw 22px;
   font-size: 14px;
 }
+
+/* ---------- Animations ---------- */
+.reveal { opacity: 0; transform: translateY(24px); transition: .8s ease; }
