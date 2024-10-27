@@ -132,3 +132,4 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 /* ---------- Animations ---------- */
 .reveal { opacity: 0; transform: translateY(24px); transition: .8s ease; }
+.reveal.in { opacity: 1; transform: none; }
