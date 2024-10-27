@@ -108,3 +108,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .hero-right p { margin: 18px 0 22px; font-size: 18px; }
 
 .actions { display: flex; gap: 20px; flex-wrap: wrap; }
+.btn {
+  display: inline-block;
+  padding: 12px 34px;
+  border-radius: 6px;
+  font-size: 17px;
+  transition: transform .2s, box-shadow .2s;
+}
