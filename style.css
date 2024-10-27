@@ -121,3 +121,11 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 .hero-character { align-self: end; display: flex; justify-content: center; }
 .hero-character img { width: 100%; max-width: 620px; display: block; }
+
+/* ---------- FOOTER ---------- */
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 4vw 22px;
+  font-size: 14px;
+}
