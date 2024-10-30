@@ -147,4 +147,5 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .pill.open { display: flex; }
   .dropdown-menu { position: static; display: none; box-shadow: none; }
   .dropdown.open .dropdown-menu { display: flex; }
+  #burger { display: grid; }
 }
