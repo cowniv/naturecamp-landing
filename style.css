@@ -144,4 +144,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
     flex-direction: column;
     background: var(--sage-dark);
   }
+  .pill.open { display: flex; }
+  .dropdown-menu { position: static; display: none; box-shadow: none; }
+  .dropdown.open .dropdown-menu { display: flex; }
 }
