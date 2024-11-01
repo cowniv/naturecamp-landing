@@ -154,4 +154,5 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .actions { justify-content: center; }
   .hero-right { text-align: center; order: 2; }
   .hero-character { order: 3; }
+  .foot { flex-direction: column; align-items: center; gap: 6px; }
 }
