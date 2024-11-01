@@ -150,4 +150,6 @@ button { font: inherit; color: inherit; cursor: pointer; }
   #burger { display: grid; }
 
   .hero { grid-template-columns: 1fr; text-align: center; gap: 28px; padding-top: 20px; }
+  .hero-left p { margin-inline: auto; }
+  .actions { justify-content: center; }
 }
