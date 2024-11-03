@@ -15,3 +15,8 @@ A summer camp landing page I designed in Figma and then built pixel-close in HTM
 
 ### Assets
 Export the 3D camper character from Figma as a PNG with a transparent background and save it as `assets/camper.png`.
+
+### What I practiced
+- Turning a Figma frame into code: spacing, type scale, color tokens
+- CSS Grid for asymmetric layouts
+- Accessible dropdowns (`aria-expanded`, click-outside to close)
